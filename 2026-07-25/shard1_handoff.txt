@@ -1,0 +1,10 @@
+n_start=1200000000
+n_end=4100000000
+max_steps=1050
+max_steps_n=2610744987
+max_peak_ratio=5053375030.023479
+max_peak_ratio_n=1410123943
+global_peak_value=7125885122794452160
+global_peak_n=1410123943
+count=2900000000
+sum_steps=647364415763

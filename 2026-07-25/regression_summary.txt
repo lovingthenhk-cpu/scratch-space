@@ -1,0 +1,5 @@
+n_records=71
+fit_all: steps = 53.723624 * ln(n) + -175.326819  R2=0.959076
+fit_n_gt_1e6: steps = 72.056064 * ln(n) + -481.163737  R2=0.952886  (n_records=28)
+c_theory_1_1_over_ln2 = 1.442695
+c_theory_2_1_over_ln_4_3 = 3.476059
