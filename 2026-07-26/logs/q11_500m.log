@@ -1,0 +1,3 @@
+q=11 sweep over odd n in [1,500000000]:
+  reached_one=30  reached_other_cycle=0  diverged=249999970  inconclusive=0
+  distinct nontrivial cycles found: 0

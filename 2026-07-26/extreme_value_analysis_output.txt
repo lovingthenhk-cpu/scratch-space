@@ -1,0 +1,50 @@
+Loaded 71 glide records, n from 2 to 4890328815
+
+=== 1. Record count vs. ln(N) (universal i.i.d. record theory) ===
+K=71 records found.
+  ln(n_last=4890328815) = 22.3105  => K/ln(N) = 3.1824
+  ln(N_search=7000000000) = 22.6692  => K/ln(N) = 3.1320
+  Universal i.i.d. theory predicts K/ln(N) -> 1 (H_N ~ ln N + gamma).
+  Observed ratio is ~3.13x the i.i.d. prediction of 1.
+  Interpretation: Collatz step-counts are NOT behaving like an i.i.d.
+  sequence indexed 1..N in the strict record-theory sense -- there are
+  roughly 3x MORE record-breakers than the universal iid bound would give.
+  Plausible reason: consecutive/nearby n have strongly CORRELATED
+  trajectories (e.g. n and n's 2-adic neighbours often share long common
+  tails), which is exactly the kind of dependence that breaks the
+  exchangeability argument behind H_N -- positively-correlated 'nearby
+  maxima' can each individually still count as a fresh record against the
+  single running best-so-far, inflating the count above the iid rate.
+
+  K_k (running record index) vs ln(n_k), sampled every ~10th record:
+    k=  1  n=           2  ln(n)=0.693  k/ln(n)=1.443
+    k= 11  n=          97  ln(n)=4.575  k/ln(n)=2.405
+    k= 21  n=        2223  ln(n)=7.707  k/ln(n)=2.725
+    k= 31  n=       34239  ln(n)=10.441  k/ln(n)=2.969
+    k= 41  n=      511935  ln(n)=13.146  k/ln(n)=3.119
+    k= 51  n=     5649499  ln(n)=15.547  k/ln(n)=3.280
+    k= 61  n=   169941673  ln(n)=18.951  k/ln(n)=3.219
+    k= 71  n=  4890328815  ln(n)=22.311  k/ln(n)=3.182
+
+=== 2. ln(n_{k+1}/n_k) gap statistics (excluding the first record) ===
+  n_gaps = 70
+  mean(ln gap)   = 0.3088
+  stdev(ln gap)  = 0.1925   (ratio sd/mean = 0.6232; Exponential(rate) has sd/mean = 1 exactly)
+  min/max ln-gap = 0.0405 / 0.6931
+  KS statistic vs Exponential(rate=3.2381): D = 0.1787
+  KS 5% critical value (asymptotic, n=70): 0.1626  => REJECT Exponential at 5% level
+
+=== 3. steps increment (Delta steps) between successive records ===
+  mean(Delta steps) = 16.143
+  stdev(Delta steps) = 27.778
+  min/max = 1/205
+  Delta(steps)/Delta(ln n) per-gap ratio: mean=111.07, median=33.03  (2026-07-25 regression slope was 53.72)
+
+=== 4. peak/n record growth ===
+  29 peak/n records, n from 1 to 1410123943
+  final peak/n = 5053375030.023479 at n=1410123943
+  log-log fit: ln(peak/n) ~ 0.9571 * ln(n) + -0.4129  (R2=0.9307)
+  => peak/n grows roughly like n^0.9571; a genuinely unbounded
+     peak/n consistent with the (unproven) folklore that sup peak/n = infinity
+     would need alpha>0, however tiny; here alpha~0.9571 but with only
+     29 points this is NOT strong evidence either way -- just descriptive.
