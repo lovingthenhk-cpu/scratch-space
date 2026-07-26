@@ -1,0 +1,43 @@
+K=71 glide records -> 70 log-gaps (unchanged dataset from 2026-07-25/26)
+mean=0.3088  sd=0.1925  sd/mean=0.6232
+
+=== Goodness-of-fit comparison (KS test, params fit BY MLE on this sample) ===
+CAVEAT: fitting params on the same sample used for the KS test makes the
+reported D/p optimistic (the classical KS null distribution assumes params
+are specified in advance, not estimated from data -- a proper Lilliefors-
+style correction would need bootstrap; we don't have that infrastructure
+here, so treat p-values below as RELATIVE ranking hints, not exact.
+
+  Gamma (2 free params: shape,scale)         D=0.1199  p~0.2462   [shape=2.3107, scale=0.1337, implied sd/mean=1/sqrt(shape)=0.6579]
+  Weibull (2 free params: shape,scale)       D=0.1326  p~0.1558   [shape=1.6590, scale=0.3461]
+  Lognormal (2 free params)                  D=0.1608  p~0.0476   [sigma=0.7413, median=0.2449]
+  Exponential (1 free param: rate)           D=0.1930  p~0.0093   [scale=0.3088]
+  Normal (2 free params, sanity check)       D=0.1961  p~0.0078   [mu=0.3088, sd=0.1925]
+
+=== AIC comparison (log-likelihood based, penalizes extra params) ===
+  Weibull (k=2 params)         AIC= -43.516  (Delta=+0.000)
+  Gamma (k=2 params)           AIC= -42.936  (Delta=+0.579)
+  Lognormal (k=2 params)       AIC= -36.200  (Delta=+7.315)
+  Exponential (k=1 param)      AIC= -22.500  (Delta=+21.016)
+
+=== Interpretation ===
+Gamma MLE shape=2.311: shape>1 confirms sub-exponential (more regular)
+gaps, consistent with the sd/mean=0.62<1 finding from 2026-07-26. The
+Gamma/Weibull fits both have lower KS D than the plain Exponential, and
+(by AIC, which penalizes their extra free parameter) still come out ahead
+of Exponential despite that penalty -- so this is not merely 'more
+parameters always fit better'.
+CAVEAT #1: n=70 gaps is a small sample; shape parameter estimates at this
+size have wide confidence intervals (a bootstrap CI is the natural next
+step once more records exist -- see PROGRESS.md priority 3).
+CAVEAT #2: this whole analysis silently assumes the 70 gaps are i.i.d.
+draws from a fixed distribution, which per 2026-07-26 item 1 is itself
+in question (nearby-n correlation). A Gamma/Weibull fit to a NON-i.i.d.
+sequence is still a valid empirical description, just not a proper
+'stochastic model' in the strict sense.
+
+=== Bootstrap 90% CI for Gamma shape parameter (2000 resamples) ===
+  point estimate shape=2.3107, bootstrap 90% CI = [1.8885, 3.0865]
+  (CI width=1.1980 -- moderate, consistent
+  with only 70 data points; a genuinely tight estimate needs several
+  hundred more glide records, i.e. verification range pushed well past 7e9.)

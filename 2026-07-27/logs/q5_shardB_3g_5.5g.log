@@ -1,0 +1,5 @@
+q=5 sweep over odd n in [3000000003,5500000000]:
+  reached_one=145790  reached_other_cycle=285209  diverged=1249569000  inconclusive=0
+  distinct nontrivial cycles found: 2
+    cycle #0 (len=10, first witnessed at n=3000047177): 13 26 33 52 66 83 104 166 208 416 
+    cycle #1 (len=10, first witnessed at n=3003536457): 17 27 34 43 54 68 86 108 136 216 
