@@ -1,0 +1,11 @@
+s= 1 A in [1,5000]: 5,000 compositions checked, 0.0s, hits so far this s: []
+s= 2 A in [2,10000]: 49,995,000 compositions checked, 63.9s, hits so far this s: []
+s= 3 A in [3,600]: 35,820,200 compositions checked, 37.0s, hits so far this s: []
+s= 4 A in [4,160]: 26,294,360 compositions checked, 32.4s, hits so far this s: []
+s= 5 A in [5,100]: 75,287,520 compositions checked, 109.5s, hits so far this s: []
+s= 6 A in [6,75]: 201,359,550 compositions checked, 326.3s, hits so far this s: []
+s= 7 A in [7,60]: 386,206,920 compositions checked, 690.1s, hits so far this s: []
+s= 8 A in [8,50]: 536,878,650 compositions checked, 1063.4s, hits so far this s: []
+
+GRAND TOTAL: 1,311,847,200 shapes checked (s=1..8, exhaustive over stated A ranges) in 2322.6s
+ALL HITS (n1 ≡ 4 mod 5): []

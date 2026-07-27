@@ -1,0 +1,9 @@
+  s=9 A up to 10: 10 compositions checked so far, 0 hits, 0.0s elapsed
+  s=9 A up to 15: 5005 compositions checked so far, 0 hits, 0.0s elapsed
+  s=9 A up to 20: 167960 compositions checked so far, 0 hits, 0.4s elapsed
+  s=9 A up to 25: 2042975 compositions checked so far, 0 hits, 4.8s elapsed
+  s=9 A up to 30: 14307150 compositions checked so far, 0 hits, 30.3s elapsed
+  s=9 A up to 35: 70607460 compositions checked so far, 0 hits, 149.9s elapsed
+  s=9 A up to 40: 273438880 compositions checked so far, 0 hits, 586.9s elapsed
+  s=9 A up to 45: 886163135 compositions checked so far, 0 hits, 1926.6s elapsed
+s=9 A in [9,45]: 886,163,135 compositions checked, 1926.6s, hits=[]
