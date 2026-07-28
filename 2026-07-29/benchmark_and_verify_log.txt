@@ -1,0 +1,26 @@
+======================================================================
+PART 1: correctness -- rediscover known q=5 cycles via MITM
+======================================================================
+
+-- trivial cycle n1=1, shape (1,4), s=2, A=5 --
+MITM hits (target n1%5==1): [(1, (1, 4), 5)]
+solve_shape/verify_cycle cross-check: (1, 5) True
+
+-- nontrivial cycle n1=17, shape (1,3,3), s=3, A=7 --
+MITM hits (target n1%5==2): [(17, (1, 3, 3), 7), (27, (3, 1, 3), 7)]
+solve_shape/verify_cycle cross-check: (17, 7) True
+
+-- nontrivial cycle n1=13 -- CORRECTED shape (1,1,5) [not (1,1,4) as
+   mistakenly self-tested in 2026-07-28's cycle_equation.py], s=3, A=7 --
+MITM hits (target n1%5==3): [(13, (1, 1, 5), 7), (33, (1, 5, 1), 7), (43, (3, 3, 1), 7), (83, (5, 1, 1), 7)]
+solve_shape/verify_cycle cross-check (CORRECT shape (1,1,5)): (13, 7) True
+solve_shape cross-check (WRONG shape (1,1,4), as previously self-tested): None <- None/False confirms yesterday's self-test typo
+
+All three known q=5 cycles correctly rediscovered by MITM. PASS.
+
+======================================================================
+PART 2: speed -- reproduce s=9, A in [9,45] (2026-07-28 brute force)
+======================================================================
+MITM: 886,163,135 shapes-equivalent, 3.10s, hits=[]
+2026-07-28 brute force (run_s9.py, from repo log): 886,163,135 shapes, 1926.6s, hits=[]
+Speedup: 621x (same exact result: 0 hits, same 886,163,135 shapes covered)
