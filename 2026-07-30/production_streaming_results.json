@@ -1,0 +1,39 @@
+{
+  "results": {
+    "19": {
+      "A_min": 19,
+      "A_max_reached": 37,
+      "total_shapes_equivalent": 17672631900,
+      "hits": [],
+      "wall_time_s": 81.10456013679504,
+      "stop_reason": "stopping s=19 BEFORE A=38: chosen k=7 estimated streamed-side 1.411e+08 items -> ~201.6s > limit 150.0s (materialized side 6.578e+05 items, within 2,000,000 budget)"
+    },
+    "20": {
+      "A_min": 20,
+      "A_max_reached": 38,
+      "total_shapes_equivalent": 33578000610,
+      "hits": [],
+      "wall_time_s": 185.49618864059448,
+      "stop_reason": "stopping s=20 BEFORE A=39: chosen k=7 estimated streamed-side 3.474e+08 items -> ~496.2s > limit 150.0s (materialized side 6.578e+05 items, within 2,000,000 budget)"
+    },
+    "21": {
+      "A_min": 21,
+      "A_max_reached": 37,
+      "total_shapes_equivalent": 12875774670,
+      "hits": [],
+      "wall_time_s": 104.01476120948792,
+      "stop_reason": "stopping s=21 BEFORE A=38: chosen k=8 estimated streamed-side 1.198e+08 items -> ~171.1s > limit 150.0s (materialized side 1.082e+06 items, within 2,000,000 budget)"
+    },
+    "22": {
+      "A_min": 22,
+      "A_max_reached": 37,
+      "total_shapes_equivalent": 9364199760,
+      "hits": [],
+      "wall_time_s": 72.19823670387268,
+      "stop_reason": "stopping s=22 BEFORE A=38: chosen k=8 estimated streamed-side 1.454e+08 items -> ~207.7s > limit 150.0s (materialized side 7.355e+05 items, within 2,000,000 budget)"
+    }
+  },
+  "grand_total_equiv": 73490606940,
+  "grand_hits": [],
+  "elapsed_total_s": 442.8597755432129
+}

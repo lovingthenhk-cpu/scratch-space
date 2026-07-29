@@ -1,0 +1,31 @@
+log2(5) = 2.321928094887362
+
+s=   3 A=   7  (known nontrivial q=5 cycles (already found, 2026-07-25/27))
+    balanced-split smaller side: 5.0000e+00 items
+    @ 1 byte/item (impossible lower bound):          5.0000e-09 GB
+    @ ~150 bytes/item (measured, dict-indexed):      7.5000e-07 GB
+    time to GENERATE (not join) smaller side @ 1e+06/s: 5.000e-06 s = 5.787e-11 days
+
+s=  28 A=  65  (next convergent -- 2026-07-29's attempted target, OOM'd)
+    balanced-split smaller side: 1.2927e+12 items
+    @ 1 byte/item (impossible lower bound):          1.2927e+03 GB
+    @ ~150 bytes/item (measured, dict-indexed):      1.9391e+05 GB
+    time to GENERATE (not join) smaller side @ 1e+06/s: 1.293e+06 s = 1.496e+01 days
+
+s=  59 A= 137  (next convergent)
+    balanced-split smaller side: 1.2250e+26 items
+    @ 1 byte/item (impossible lower bound):          1.2250e+17 GB
+    @ ~150 bytes/item (measured, dict-indexed):      1.8375e+19 GB
+    time to GENERATE (not join) smaller side @ 1e+06/s: 1.225e+20 s = 1.418e+15 days
+
+s= 146 A= 339  (next convergent)
+    balanced-split smaller side: 4.1855e+66 items
+    @ 1 byte/item (impossible lower bound):          4.1855e+57 GB
+    @ ~150 bytes/item (measured, dict-indexed):      6.2783e+59 GB
+    time to GENERATE (not join) smaller side @ 1e+06/s: 4.186e+60 s = 4.844e+55 days
+
+=== Comparison: brute force vs. best-case 2-way MITM total work, s=28,A=65 ===
+brute force C(64,27)          = 846,636,978,475,316,672
+2-way MITM total 2*C(51,14)   = 2,585,412,349,800
+speedup factor                = 327,467x
+time for MITM total @ 1e+06 items/s (generation only): 2.585e+06 s = 29.9 days
