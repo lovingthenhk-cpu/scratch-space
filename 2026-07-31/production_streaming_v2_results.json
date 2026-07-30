@@ -1,0 +1,55 @@
+{
+  "results": {
+    "19": {
+      "A_min": 38,
+      "A_max_reached": 39,
+      "total_shapes_equivalent": 51250632510,
+      "hits": [],
+      "wall_time_s": 327.2886018753052,
+      "stop_reason": "stopping s=19 BEFORE A=40: chosen k=7 estimated streamed-side 3.548e+08 items -> ~506.9s > limit 400.0s (materialized side 1.184e+06 items, within 2,000,000 budget)"
+    },
+    "20": {
+      "A_min": 39,
+      "A_max_reached": null,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 4.553794860839844e-05,
+      "stop_reason": "stopping s=20 BEFORE A=39: chosen k=7 estimated streamed-side 3.474e+08 items -> ~496.2s > limit 400.0s (materialized side 6.578e+05 items, within 2,000,000 budget)"
+    },
+    "21": {
+      "A_min": 38,
+      "A_max_reached": 39,
+      "total_shapes_equivalent": 49483369320,
+      "hits": [],
+      "wall_time_s": 320.58869338035583,
+      "stop_reason": "stopping s=21 BEFORE A=40: chosen k=7 estimated streamed-side 8.188e+08 items -> ~1169.7s > limit 400.0s (materialized side 6.578e+05 items, within 2,000,000 budget)"
+    },
+    "22": {
+      "A_min": 38,
+      "A_max_reached": 39,
+      "total_shapes_equivalent": 41656918050,
+      "hits": [],
+      "wall_time_s": 413.6659789085388,
+      "stop_reason": "stopping s=22 BEFORE A=40: chosen k=8 estimated streamed-side 4.714e+08 items -> ~673.5s > limit 400.0s (materialized side 1.562e+06 items, within 2,000,000 budget)"
+    },
+    "23": {
+      "A_min": 23,
+      "A_max_reached": 38,
+      "total_shapes_equivalent": 15471286560,
+      "hits": [],
+      "wall_time_s": 148.1210973262787,
+      "stop_reason": "stopping s=23 BEFORE A=39: chosen k=8 estimated streamed-side 3.005e+08 items -> ~429.3s > limit 400.0s (materialized side 7.355e+05 items, within 2,000,000 budget)"
+    },
+    "24": {
+      "A_min": 24,
+      "A_max_reached": 39,
+      "total_shapes_equivalent": 25140840660,
+      "hits": [],
+      "wall_time_s": 315.2167537212372,
+      "stop_reason": "stopping s=24 BEFORE A=40: chosen k=8 estimated streamed-side 6.011e+08 items -> ~858.7s > limit 400.0s (materialized side 7.355e+05 items, within 2,000,000 budget)"
+    }
+  },
+  "grand_total_equiv": 183003047100,
+  "grand_hits": [],
+  "elapsed_total_s": 1524.9811339378357
+}
