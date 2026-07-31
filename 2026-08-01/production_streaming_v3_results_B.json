@@ -1,0 +1,40 @@
+{
+  "half": "B",
+  "results": {
+    "20": {
+      "A_min": 39,
+      "A_max_reached": 40,
+      "total_shapes_equivalent": 104268528210,
+      "hits": [],
+      "wall_time_s": 614.2078454494476,
+      "stop_reason": "stopping s=20 BEFORE A=41: chosen k=7 estimated streamed-side 9.280e+08 items -> ~1031.1s > limit 700.0s (materialized side 1.184e+06 items, within 2,000,000 budget)"
+    },
+    "22": {
+      "A_min": 40,
+      "A_max_reached": 40,
+      "total_shapes_equivalent": 62359143990,
+      "hits": [],
+      "wall_time_s": 360.8624017238617,
+      "stop_reason": "stopping s=22 BEFORE A=41: chosen k=7 estimated streamed-side 1.856e+09 items -> ~2062.2s > limit 700.0s (materialized side 6.578e+05 items, within 2,000,000 budget)"
+    },
+    "24": {
+      "A_min": 40,
+      "A_max_reached": 40,
+      "total_shapes_equivalent": 37711260990,
+      "hits": [],
+      "wall_time_s": 455.16450119018555,
+      "stop_reason": "stopping s=24 BEFORE A=41: chosen k=8 estimated streamed-side 1.167e+09 items -> ~1296.4s > limit 700.0s (materialized side 1.082e+06 items, within 2,000,000 budget)"
+    },
+    "26": {
+      "A_min": 26,
+      "A_max_reached": 41,
+      "total_shapes_equivalent": 63432274896,
+      "hits": [],
+      "wall_time_s": 684.5760939121246,
+      "stop_reason": "stopping s=26 BEFORE A=42: chosen k=8 estimated streamed-side 2.204e+09 items -> ~2448.8s > limit 700.0s (materialized side 7.355e+05 items, within 2,000,000 budget)"
+    }
+  },
+  "grand_total_equiv": 267771208086,
+  "grand_hits": [],
+  "elapsed_total_s": 2114.835352420807
+}
