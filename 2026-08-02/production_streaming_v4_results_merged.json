@@ -1,0 +1,91 @@
+{
+  "results": {
+    "19": {
+      "A_min": 42,
+      "A_max_reached": 44,
+      "total_shapes_equivalent": 1164168809856,
+      "hits": [],
+      "wall_time_s": 1147.633358001709,
+      "stop_reason": "stopping s=19 BEFORE A=45: chosen k=7 estimated streamed-side 2.707e+09 items -> ~2707.5s > limit 900.0s (materialized side 4.272e+06 items, within 15,000,000 budget)"
+    },
+    "20": {
+      "A_min": 41,
+      "A_max_reached": 43,
+      "total_shapes_equivalent": 822720389400,
+      "hits": [],
+      "wall_time_s": 1269.1689140796661,
+      "stop_reason": "stopping s=20 BEFORE A=44: chosen k=8 estimated streamed-side 1.252e+09 items -> ~1251.7s > limit 900.0s (materialized side 1.052e+07 items, within 15,000,000 budget)"
+    },
+    "21": {
+      "A_min": 40,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 475898730450,
+      "hits": [],
+      "wall_time_s": 658.3541617393494,
+      "stop_reason": "stopping s=21 BEFORE A=43: chosen k=8 estimated streamed-side 1.476e+09 items -> ~1476.3s > limit 900.0s (materialized side 5.853e+06 items, within 15,000,000 budget)"
+    },
+    "22": {
+      "A_min": 41,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 400411345620,
+      "hits": [],
+      "wall_time_s": 825.455687046051,
+      "stop_reason": "stopping s=22 BEFORE A=43: chosen k=9 estimated streamed-side 9.280e+08 items -> ~928.0s > limit 900.0s (materialized side 1.431e+07 items, within 15,000,000 budget)"
+    },
+    "23": {
+      "A_min": 41,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 358042932000,
+      "hits": [],
+      "wall_time_s": 918.2081031799316,
+      "stop_reason": "stopping s=23 BEFORE A=43: chosen k=9 estimated streamed-side 1.392e+09 items -> ~1392.0s > limit 900.0s (materialized side 1.002e+07 items, within 15,000,000 budget)"
+    },
+    "24": {
+      "A_min": 41,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 290845019400,
+      "hits": [],
+      "wall_time_s": 700.4094536304474,
+      "stop_reason": "stopping s=24 BEFORE A=43: chosen k=9 estimated streamed-side 1.856e+09 items -> ~1856.0s > limit 900.0s (materialized side 6.907e+06 items, within 15,000,000 budget)"
+    },
+    "25": {
+      "A_min": 41,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 214436582100,
+      "hits": [],
+      "wall_time_s": 710.7011969089508,
+      "stop_reason": "stopping s=25 BEFORE A=43: chosen k=10 estimated streamed-side 1.037e+09 items -> ~1037.2s > limit 900.0s (materialized side 1.312e+07 items, within 15,000,000 budget)"
+    },
+    "26": {
+      "A_min": 42,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 103077446706,
+      "hits": [],
+      "wall_time_s": 312.10278248786926,
+      "stop_reason": "stopping s=26 BEFORE A=43: chosen k=10 estimated streamed-side 1.167e+09 items -> ~1166.8s > limit 900.0s (materialized side 8.436e+06 items, within 15,000,000 budget)"
+    },
+    "27": {
+      "A_min": 27,
+      "A_max_reached": 43,
+      "total_shapes_equivalent": 265182149218,
+      "hits": [],
+      "wall_time_s": 1094.1628303527832,
+      "stop_reason": "stopping s=27 BEFORE A=44: chosen k=10 estimated streamed-side 2.334e+09 items -> ~2333.6s > limit 900.0s (materialized side 8.436e+06 items, within 15,000,000 budget)"
+    },
+    "28": {
+      "A_min": 28,
+      "A_max_reached": 43,
+      "total_shapes_equivalent": 151532656696,
+      "hits": [],
+      "wall_time_s": 867.6963260173798,
+      "stop_reason": "stopping s=28 BEFORE A=44: chosen k=11 estimated streamed-side 1.167e+09 items -> ~1166.8s > limit 900.0s (materialized side 1.304e+07 items, within 15,000,000 budget)"
+    }
+  },
+  "grand_total_equiv": 4246316061446,
+  "grand_hits": [],
+  "elapsed_wall_time_s_per_half": {
+    "A": 4529.094712734222,
+    "B": 3974.8571610450745
+  },
+  "note": "A and B ran concurrently on separate cores; wall-clock for the whole run is max(A,B), not sum. MEM_ITEM_BUDGET raised 2e6->1.5e7 this session (see run_production_streaming_v4.py docstring) -- this alone resolved the s=21 stagnation from 2026-08-01."
+}

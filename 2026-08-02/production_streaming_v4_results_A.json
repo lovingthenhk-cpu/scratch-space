@@ -1,0 +1,48 @@
+{
+  "half": "A",
+  "results": {
+    "19": {
+      "A_min": 42,
+      "A_max_reached": 44,
+      "total_shapes_equivalent": 1164168809856,
+      "hits": [],
+      "wall_time_s": 1147.633358001709,
+      "stop_reason": "stopping s=19 BEFORE A=45: chosen k=7 estimated streamed-side 2.707e+09 items -> ~2707.5s > limit 900.0s (materialized side 4.272e+06 items, within 15,000,000 budget)"
+    },
+    "21": {
+      "A_min": 40,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 475898730450,
+      "hits": [],
+      "wall_time_s": 658.3541617393494,
+      "stop_reason": "stopping s=21 BEFORE A=43: chosen k=8 estimated streamed-side 1.476e+09 items -> ~1476.3s > limit 900.0s (materialized side 5.853e+06 items, within 15,000,000 budget)"
+    },
+    "23": {
+      "A_min": 41,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 358042932000,
+      "hits": [],
+      "wall_time_s": 918.2081031799316,
+      "stop_reason": "stopping s=23 BEFORE A=43: chosen k=9 estimated streamed-side 1.392e+09 items -> ~1392.0s > limit 900.0s (materialized side 1.002e+07 items, within 15,000,000 budget)"
+    },
+    "25": {
+      "A_min": 41,
+      "A_max_reached": 42,
+      "total_shapes_equivalent": 214436582100,
+      "hits": [],
+      "wall_time_s": 710.7011969089508,
+      "stop_reason": "stopping s=25 BEFORE A=43: chosen k=10 estimated streamed-side 1.037e+09 items -> ~1037.2s > limit 900.0s (materialized side 1.312e+07 items, within 15,000,000 budget)"
+    },
+    "27": {
+      "A_min": 27,
+      "A_max_reached": 43,
+      "total_shapes_equivalent": 265182149218,
+      "hits": [],
+      "wall_time_s": 1094.1628303527832,
+      "stop_reason": "stopping s=27 BEFORE A=44: chosen k=10 estimated streamed-side 2.334e+09 items -> ~2333.6s > limit 900.0s (materialized side 8.436e+06 items, within 15,000,000 budget)"
+    }
+  },
+  "grand_total_equiv": 2477729203624,
+  "grand_hits": [],
+  "elapsed_total_s": 4529.094712734222
+}
