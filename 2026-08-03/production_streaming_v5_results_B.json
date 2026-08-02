@@ -1,0 +1,48 @@
+{
+  "half": "B",
+  "results": {
+    "10": {
+      "A_min": 71,
+      "A_max_reached": 83,
+      "total_shapes_equivalent": 2035627805354,
+      "hits": [],
+      "wall_time_s": 1226.4900624752045,
+      "stop_reason": "stopping s=10: cumulative ACTUAL time 1226.5s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    },
+    "12": {
+      "A_min": 53,
+      "A_max_reached": 63,
+      "total_shapes_equivalent": 2462045039363,
+      "hits": [],
+      "wall_time_s": 1414.1998517513275,
+      "stop_reason": "stopping s=12: cumulative ACTUAL time 1414.2s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    },
+    "14": {
+      "A_min": 46,
+      "A_max_reached": 53,
+      "total_shapes_equivalent": 2237108569240,
+      "hits": [],
+      "wall_time_s": 1326.7114362716675,
+      "stop_reason": "stopping s=14: cumulative ACTUAL time 1326.7s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    },
+    "16": {
+      "A_min": 43,
+      "A_max_reached": 47,
+      "total_shapes_equivalent": 1336722887496,
+      "hits": [],
+      "wall_time_s": 968.1797914505005,
+      "stop_reason": "stopping s=16 BEFORE A=48: chosen k=6 estimated streamed-side 1.471e+09 items -> ~1471.4s > limit 900.0s (materialized side 2.761e+06 items, within 15,000,000 budget)"
+    },
+    "18": {
+      "A_min": 41,
+      "A_max_reached": 44,
+      "total_shapes_equivalent": 916150435164,
+      "hits": [],
+      "wall_time_s": 1476.5400578975677,
+      "stop_reason": "stopping s=18: cumulative ACTUAL time 1476.5s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    }
+  },
+  "grand_total_equiv": 8987654736617,
+  "grand_hits": [],
+  "elapsed_total_s": 6412.156234741211
+}

@@ -1,0 +1,93 @@
+[half A] plan: [(9, 83), (11, 57), (13, 49), (15, 45), (17, 42)]
+
+=== [half A] s=9 starting from A=83 ===
+  [half A] s=  9 A=  83 k=  4  dt=  18.64s (est   22.5s)  n1=   1,426,425 n2=  22,537,515  brute_equiv=3.564e+10  cum_equiv=3.564e+10  hits_this_A=0  cum_time_this_s=   18.6s
+  [half A] s=  9 A=  84 k=  4  dt=  17.89s (est   24.0s)  n1=   1,502,501 n2=  24,040,016  brute_equiv=3.944e+10  cum_equiv=7.508e+10  hits_this_A=0  cum_time_this_s=   36.5s
+  [half A] s=  9 A=  85 k=  4  dt=  18.59s (est   25.6s)  n1=   1,581,580 n2=  25,621,596  brute_equiv=4.360e+10  cum_equiv=1.187e+11  hits_this_A=0  cum_time_this_s=   55.1s
+  [half A] s=  9 A=  86 k=  4  dt=  21.14s (est   27.3s)  n1=   1,663,740 n2=  27,285,336  brute_equiv=4.812e+10  cum_equiv=1.668e+11  hits_this_A=0  cum_time_this_s=   76.3s
+  [half A] s=  9 A=  87 k=  4  dt=  21.70s (est   29.0s)  n1=   1,749,060 n2=  29,034,396  brute_equiv=5.306e+10  cum_equiv=2.199e+11  hits_this_A=0  cum_time_this_s=   98.0s
+  [half A] s=  9 A=  88 k=  4  dt=  26.52s (est   30.9s)  n1=   1,837,620 n2=  30,872,016  brute_equiv=5.843e+10  cum_equiv=2.783e+11  hits_this_A=0  cum_time_this_s=  124.5s
+  [half A] s=  9 A=  89 k=  4  dt=  28.49s (est   32.8s)  n1=   1,929,501 n2=  32,801,517  brute_equiv=6.428e+10  cum_equiv=3.426e+11  hits_this_A=0  cum_time_this_s=  153.0s
+  [half A] s=  9 A=  90 k=  4  dt=  31.39s (est   34.8s)  n1=   2,024,785 n2=  34,826,302  brute_equiv=7.063e+10  cum_equiv=4.132e+11  hits_this_A=0  cum_time_this_s=  184.4s
+  [half A] s=  9 A=  91 k=  4  dt=  29.79s (est   36.9s)  n1=   2,123,555 n2=  36,949,857  brute_equiv=7.752e+10  cum_equiv=4.907e+11  hits_this_A=0  cum_time_this_s=  214.2s
+  [half A] s=  9 A=  92 k=  4  dt=  30.44s (est   39.2s)  n1=   2,225,895 n2=  39,175,752  brute_equiv=8.499e+10  cum_equiv=5.757e+11  hits_this_A=0  cum_time_this_s=  244.6s
+  [half A] s=  9 A=  93 k=  4  dt=  32.80s (est   41.5s)  n1=   2,331,890 n2=  41,507,642  brute_equiv=9.308e+10  cum_equiv=6.688e+11  hits_this_A=0  cum_time_this_s=  277.4s
+  [half A] s=  9 A=  94 k=  4  dt=  33.87s (est   43.9s)  n1=   2,441,626 n2=  43,949,268  brute_equiv=1.018e+11  cum_equiv=7.706e+11  hits_this_A=0  cum_time_this_s=  311.3s
+  [half A] s=  9 A=  95 k=  4  dt=  36.92s (est   46.5s)  n1=   2,555,190 n2=  46,504,458  brute_equiv=1.113e+11  cum_equiv=8.819e+11  hits_this_A=0  cum_time_this_s=  348.2s
+  [half A] s=  9 A=  96 k=  4  dt=  38.38s (est   49.2s)  n1=   2,672,670 n2=  49,177,128  brute_equiv=1.216e+11  cum_equiv=1.003e+12  hits_this_A=0  cum_time_this_s=  386.6s
+  [half A] s=  9 A=  97 k=  4  dt=  41.67s (est   52.0s)  n1=   2,794,155 n2=  51,971,283  brute_equiv=1.326e+11  cum_equiv=1.136e+12  hits_this_A=0  cum_time_this_s=  428.2s
+  [half A] s=  9 A=  98 k=  4  dt=  40.48s (est   54.9s)  n1=   2,919,735 n2=  54,891,018  brute_equiv=1.445e+11  cum_equiv=1.281e+12  hits_this_A=0  cum_time_this_s=  468.7s
+  [half A] s=  9 A=  99 k=  4  dt=  44.62s (est   57.9s)  n1=   3,049,501 n2=  57,940,519  brute_equiv=1.574e+11  cum_equiv=1.438e+12  hits_this_A=0  cum_time_this_s=  513.3s
+  [half A] s=  9 A= 100 k=  4  dt=  49.37s (est   61.1s)  n1=   3,183,545 n2=  61,124,064  brute_equiv=1.712e+11  cum_equiv=1.609e+12  hits_this_A=0  cum_time_this_s=  562.7s
+  [half A] s=  9 A= 101 k=  4  dt=  53.70s (est   64.4s)  n1=   3,321,960 n2=  64,446,024  brute_equiv=1.861e+11  cum_equiv=1.795e+12  hits_this_A=0  cum_time_this_s=  616.4s
+  [half A] s=  9 A= 102 k=  4  dt=  58.45s (est   67.9s)  n1=   3,464,840 n2=  67,910,864  brute_equiv=2.021e+11  cum_equiv=1.997e+12  hits_this_A=0  cum_time_this_s=  674.9s
+  [half A] s=  9 A= 103 k=  4  dt=  60.39s (est   71.5s)  n1=   3,612,280 n2=  71,523,144  brute_equiv=2.193e+11  cum_equiv=2.217e+12  hits_this_A=0  cum_time_this_s=  735.2s
+  [half A] s=  9 A= 104 k=  4  dt=  63.77s (est   75.3s)  n1=   3,764,376 n2=  75,287,520  brute_equiv=2.378e+11  cum_equiv=2.454e+12  hits_this_A=0  cum_time_this_s=  799.0s
+  [half A] s=  9 A= 105 k=  4  dt=  67.25s (est   79.2s)  n1=   3,921,225 n2=  79,208,745  brute_equiv=2.576e+11  cum_equiv=2.712e+12  hits_this_A=0  cum_time_this_s=  866.3s
+  [half A] s=  9 A= 106 k=  4  dt=  69.00s (est   83.3s)  n1=   4,082,925 n2=  83,291,670  brute_equiv=2.788e+11  cum_equiv=2.991e+12  hits_this_A=0  cum_time_this_s=  935.3s
+  [half A] s=  9 A= 107 k=  4  dt=  76.66s (est   87.5s)  n1=   4,249,575 n2=  87,541,245  brute_equiv=3.016e+11  cum_equiv=3.292e+12  hits_this_A=0  cum_time_this_s= 1011.9s
+  [half A] s=  9 A= 108 k=  4  dt=  81.72s (est   92.0s)  n1=   4,421,275 n2=  91,962,520  brute_equiv=3.259e+11  cum_equiv=3.618e+12  hits_this_A=0  cum_time_this_s= 1093.6s
+  [half A] s=  9 A= 109 k=  4  dt= 100.22s (est   96.6s)  n1=   4,598,126 n2=  96,560,646  brute_equiv=3.520e+11  cum_equiv=3.970e+12  hits_this_A=0  cum_time_this_s= 1193.8s
+  [half A] s=  9 A= 110 k=  4  dt=  88.71s (est  101.3s)  n1=   4,780,230 n2= 101,340,876  brute_equiv=3.799e+11  cum_equiv=4.350e+12  hits_this_A=0  cum_time_this_s= 1282.6s
+  [half A] stopping s=9: cumulative ACTUAL time 1282.6s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)
+=== [half A] s=9 done: A in [83,110], 4.350e+12 brute-force-equivalent shapes, 1282.6s, hits=[] ===
+
+=== [half A] s=11 starting from A=57 ===
+  [half A] s= 11 A=  57 k=  5  dt=  21.09s (est   20.4s)  n1=   2,349,060 n2=  20,358,520  brute_equiv=3.561e+10  cum_equiv=3.561e+10  hits_this_A=0  cum_time_this_s=   21.1s
+  [half A] s= 11 A=  58 k=  5  dt=  22.02s (est   23.0s)  n1=   2,598,960 n2=  22,957,480  brute_equiv=4.318e+10  cum_equiv=7.879e+10  hits_this_A=0  cum_time_this_s=   43.1s
+  [half A] s= 11 A=  59 k=  5  dt=  24.77s (est   25.8s)  n1=   2,869,685 n2=  25,827,165  brute_equiv=5.218e+10  cum_equiv=1.310e+11  hits_this_A=0  cum_time_this_s=   67.9s
+  [half A] s= 11 A=  60 k=  5  dt=  26.83s (est   29.0s)  n1=   3,162,510 n2=  28,989,675  brute_equiv=6.283e+10  cum_equiv=1.938e+11  hits_this_A=0  cum_time_this_s=   94.7s
+  [half A] s= 11 A=  61 k=  5  dt=  29.71s (est   32.5s)  n1=   3,478,761 n2=  32,468,436  brute_equiv=7.539e+10  cum_equiv=2.692e+11  hits_this_A=0  cum_time_this_s=  124.4s
+  [half A] s= 11 A=  62 k=  5  dt=  32.85s (est   36.3s)  n1=   3,819,816 n2=  36,288,252  brute_equiv=9.018e+10  cum_equiv=3.594e+11  hits_this_A=0  cum_time_this_s=  157.3s
+  [half A] s= 11 A=  63 k=  5  dt=  37.89s (est   40.5s)  n1=   4,187,106 n2=  40,475,358  brute_equiv=1.075e+11  cum_equiv=4.669e+11  hits_this_A=0  cum_time_this_s=  195.2s
+  [half A] s= 11 A=  64 k=  5  dt=  44.96s (est   45.1s)  n1=   4,582,116 n2=  45,057,474  brute_equiv=1.278e+11  cum_equiv=5.947e+11  hits_this_A=0  cum_time_this_s=  240.1s
+  [half A] s= 11 A=  65 k=  5  dt=  50.08s (est   50.1s)  n1=   5,006,386 n2=  50,063,860  brute_equiv=1.515e+11  cum_equiv=7.462e+11  hits_this_A=0  cum_time_this_s=  290.2s
+  [half A] s= 11 A=  66 k=  5  dt=  55.82s (est   55.5s)  n1=   5,461,512 n2=  55,525,372  brute_equiv=1.790e+11  cum_equiv=9.252e+11  hits_this_A=0  cum_time_this_s=  346.0s
+  [half A] s= 11 A=  67 k=  5  dt=  56.57s (est   61.5s)  n1=   5,949,147 n2=  61,474,519  brute_equiv=2.110e+11  cum_equiv=1.136e+12  hits_this_A=0  cum_time_this_s=  402.6s
+  [half A] s= 11 A=  68 k=  5  dt=  62.88s (est   67.9s)  n1=   6,471,002 n2=  67,945,521  brute_equiv=2.480e+11  cum_equiv=1.384e+12  hits_this_A=0  cum_time_this_s=  465.5s
+  [half A] s= 11 A=  69 k=  5  dt=  70.82s (est   75.0s)  n1=   7,028,847 n2=  74,974,368  brute_equiv=2.908e+11  cum_equiv=1.675e+12  hits_this_A=0  cum_time_this_s=  536.3s
+  [half A] s= 11 A=  70 k=  5  dt=  78.67s (est   82.6s)  n1=   7,624,512 n2=  82,598,880  brute_equiv=3.400e+11  cum_equiv=2.015e+12  hits_this_A=0  cum_time_this_s=  614.9s
+  [half A] s= 11 A=  71 k=  5  dt=  95.15s (est   90.9s)  n1=   8,259,888 n2=  90,858,768  brute_equiv=3.967e+11  cum_equiv=2.412e+12  hits_this_A=0  cum_time_this_s=  710.1s
+  [half A] s= 11 A=  72 k=  5  dt= 110.79s (est   99.8s)  n1=   8,936,928 n2=  99,795,696  brute_equiv=4.617e+11  cum_equiv=2.873e+12  hits_this_A=0  cum_time_this_s=  820.9s
+  [half A] s= 11 A=  73 k=  5  dt= 107.09s (est  109.5s)  n1=   9,657,648 n2= 109,453,344  brute_equiv=5.362e+11  cum_equiv=3.410e+12  hits_this_A=0  cum_time_this_s=  928.0s
+  [half A] s= 11 A=  74 k=  5  dt= 126.40s (est  119.9s)  n1=  10,424,128 n2= 119,877,472  brute_equiv=6.213e+11  cum_equiv=4.031e+12  hits_this_A=0  cum_time_this_s= 1054.4s
+  [half A] s= 11 A=  75 k=  5  dt= 135.24s (est  131.1s)  n1=  11,238,513 n2= 131,115,985  brute_equiv=7.184e+11  cum_equiv=4.749e+12  hits_this_A=0  cum_time_this_s= 1189.6s
+  [half A] s= 11 A=  76 k=  5  dt= 138.78s (est  143.2s)  n1=  12,103,014 n2= 143,218,999  brute_equiv=8.289e+11  cum_equiv=5.578e+12  hits_this_A=0  cum_time_this_s= 1328.4s
+  [half A] stopping s=11: cumulative ACTUAL time 1328.4s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)
+=== [half A] s=11 done: A in [57,76], 5.578e+12 brute-force-equivalent shapes, 1328.4s, hits=[] ===
+
+=== [half A] s=13 starting from A=49 ===
+  [half A] s= 13 A=  49 k=  6  dt=  35.44s (est   32.2s)  n1=   5,245,786 n2=  32,224,114  brute_equiv=6.967e+10  cum_equiv=6.967e+10  hits_this_A=0  cum_time_this_s=   35.4s
+  [half A] s= 13 A=  50 k=  6  dt=  39.96s (est   38.3s)  n1=   6,096,454 n2=  38,320,568  brute_equiv=9.226e+10  cum_equiv=1.619e+11  hits_this_A=0  cum_time_this_s=   75.4s
+  [half A] s= 13 A=  51 k=  6  dt=  53.13s (est   45.4s)  n1=   7,059,052 n2=  45,379,620  brute_equiv=1.214e+11  cum_equiv=2.833e+11  hits_this_A=0  cum_time_this_s=  128.5s
+  [half A] s= 13 A=  52 k=  6  dt=  59.48s (est   53.5s)  n1=   8,145,060 n2=  53,524,680  brute_equiv=1.588e+11  cum_equiv=4.421e+11  hits_this_A=0  cum_time_this_s=  188.0s
+  [half A] s= 13 A=  53 k=  6  dt=  70.60s (est   62.9s)  n1=   9,366,819 n2=  62,891,499  brute_equiv=2.064e+11  cum_equiv=6.485e+11  hits_this_A=0  cum_time_this_s=  258.6s
+  [half A] s= 13 A=  54 k=  6  dt=  91.62s (est   73.6s)  n1=  10,737,573 n2=  73,629,072  brute_equiv=2.668e+11  cum_equiv=9.152e+11  hits_this_A=0  cum_time_this_s=  350.2s
+  [half A] s= 13 A=  55 k=  6  dt= 102.31s (est   85.9s)  n1=  12,271,512 n2=  85,900,584  brute_equiv=3.430e+11  cum_equiv=1.258e+12  hits_this_A=0  cum_time_this_s=  452.5s
+  [half A] s= 13 A=  56 k=  6  dt= 113.84s (est   99.9s)  n1=  13,983,816 n2=  99,884,400  brute_equiv=4.387e+11  cum_equiv=1.697e+12  hits_this_A=0  cum_time_this_s=  566.4s
+  [half A] s= 13 A=  57 k=  5  dt= 607.67s (est  752.5s)  n1=   1,906,884 n2= 752,538,150  brute_equiv=5.584e+11  cum_equiv=2.255e+12  hits_this_A=0  cum_time_this_s= 1174.0s
+  [half A] s= 13 A=  58 k=  5  dt= 731.85s (est  886.3s)  n1=   2,118,760 n2= 886,322,710  brute_equiv=7.073e+11  cum_equiv=2.963e+12  hits_this_A=0  cum_time_this_s= 1905.9s
+  [half A] stopping s=13: cumulative ACTUAL time 1905.9s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)
+=== [half A] s=13 done: A in [49,58], 2.963e+12 brute-force-equivalent shapes, 1905.9s, hits=[] ===
+
+=== [half A] s=15 starting from A=45 ===
+  [half A] s= 15 A=  45 k=  7  dt=  68.83s (est   48.9s)  n1=  10,295,472 n2=  48,903,492  brute_equiv=1.150e+11  cum_equiv=1.150e+11  hits_this_A=0  cum_time_this_s=   68.8s
+  [half A] s= 15 A=  46 k=  7  dt=  89.87s (est   61.5s)  n1=  12,620,256 n2=  61,523,748  brute_equiv=1.669e+11  cum_equiv=2.818e+11  hits_this_A=0  cum_time_this_s=  158.7s
+  [half A] s= 15 A=  47 k=  6  dt= 360.43s (est  350.3s)  n1=   2,760,681 n2= 350,343,565  brute_equiv=2.399e+11  cum_equiv=5.217e+11  hits_this_A=0  cum_time_this_s=  519.1s
+  [half A] s= 15 A=  48 k=  6  dt= 427.75s (est  445.9s)  n1=   3,262,623 n2= 445,891,810  brute_equiv=3.416e+11  cum_equiv=8.633e+11  hits_this_A=0  cum_time_this_s=  946.9s
+  [half A] s= 15 A=  49 k=  6  dt= 517.24s (est  563.9s)  n1=   3,838,380 n2= 563,921,995  brute_equiv=4.823e+11  cum_equiv=1.346e+12  hits_this_A=0  cum_time_this_s= 1464.1s
+  [half A] stopping s=15: cumulative ACTUAL time 1464.1s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)
+=== [half A] s=15 done: A in [45,49], 1.346e+12 brute-force-equivalent shapes, 1464.1s, hits=[] ===
+
+=== [half A] s=17 starting from A=42 ===
+  [half A] s= 17 A=  42 k=  8  dt=  83.26s (est   52.5s)  n1=  13,884,156 n2=  52,451,256  brute_equiv=1.031e+11  cum_equiv=1.031e+11  hits_this_A=0  cum_time_this_s=   83.3s
+  [half A] s= 17 A=  43 k=  7  dt= 267.51s (est  254.2s)  n1=   4,272,048 n2= 254,186,856  brute_equiv=1.665e+11  cum_equiv=2.696e+11  hits_this_A=0  cum_time_this_s=  350.8s
+  [half A] s= 17 A=  44 k=  7  dt= 358.96s (est  348.3s)  n1=   5,379,616 n2= 348,330,136  brute_equiv=2.652e+11  cum_equiv=5.348e+11  hits_this_A=0  cum_time_this_s=  709.7s
+  [half A] s= 17 A=  45 k=  7  dt= 480.61s (est  472.7s)  n1=   6,724,520 n2= 472,733,756  brute_equiv=4.167e+11  cum_equiv=9.515e+11  hits_this_A=0  cum_time_this_s= 1190.3s
+  [half A] s= 17 A=  46 k=  7  dt= 689.87s (est  635.7s)  n1=   8,347,680 n2= 635,745,396  brute_equiv=6.466e+11  cum_equiv=1.598e+12  hits_this_A=0  cum_time_this_s= 1880.2s
+  [half A] stopping s=17: cumulative ACTUAL time 1880.2s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)
+=== [half A] s=17 done: A in [42,46], 1.598e+12 brute-force-equivalent shapes, 1880.2s, hits=[] ===
+
+
+[half A] GRAND TOTAL: 1.583e+13 brute-force-equivalent shapes checked, total wall time 7861.2s
+[half A] GRAND HITS: []

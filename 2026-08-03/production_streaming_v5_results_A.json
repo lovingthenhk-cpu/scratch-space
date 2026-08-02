@@ -1,0 +1,48 @@
+{
+  "half": "A",
+  "results": {
+    "9": {
+      "A_min": 83,
+      "A_max_reached": 110,
+      "total_shapes_equivalent": 4350278270910,
+      "hits": [],
+      "wall_time_s": 1282.5589215755463,
+      "stop_reason": "stopping s=9: cumulative ACTUAL time 1282.6s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    },
+    "11": {
+      "A_min": 57,
+      "A_max_reached": 76,
+      "total_shapes_equivalent": 5578258155900,
+      "hits": [],
+      "wall_time_s": 1328.413358449936,
+      "stop_reason": "stopping s=11: cumulative ACTUAL time 1328.4s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    },
+    "13": {
+      "A_min": 49,
+      "A_max_reached": 58,
+      "total_shapes_equivalent": 2962653312984,
+      "hits": [],
+      "wall_time_s": 1905.8955125808716,
+      "stop_reason": "stopping s=13: cumulative ACTUAL time 1905.9s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    },
+    "15": {
+      "A_min": 45,
+      "A_max_reached": 49,
+      "total_shapes_equivalent": 1345669085528,
+      "hits": [],
+      "wall_time_s": 1464.1223404407501,
+      "stop_reason": "stopping s=15: cumulative ACTUAL time 1464.1s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    },
+    "17": {
+      "A_min": 42,
+      "A_max_reached": 46,
+      "total_shapes_equivalent": 1598110546410,
+      "hits": [],
+      "wall_time_s": 1880.2174324989319,
+      "stop_reason": "stopping s=17: cumulative ACTUAL time 1880.2s > budget 1200.0s (control-timed, not natural exhaustion -- see docstring)"
+    }
+  },
+  "grand_total_equiv": 15834969371732,
+  "grand_hits": [],
+  "elapsed_total_s": 7861.23228597641
+}
