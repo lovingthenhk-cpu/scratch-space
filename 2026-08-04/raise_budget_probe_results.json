@@ -1,0 +1,27 @@
+{
+  "new_budget": 18000000,
+  "unlocked": [
+    [
+      16,
+      48
+    ]
+  ],
+  "runs": [
+    {
+      "s": 16,
+      "A": 48,
+      "k": 7,
+      "materialized_items": 15380937,
+      "streamed_items": 350343565,
+      "estimated_time_s": 350.343565,
+      "wall_time_s": 360.0816524028778,
+      "max_rss_kb": 2138412,
+      "result": {
+        "hits": [],
+        "n1c": 15380937,
+        "n2c": 350343565,
+        "dt": 359.8426582813263
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "half": "A",
+  "results": {
+    "9": {
+      "A_min": 111,
+      "A_max_reached": 129,
+      "total_shapes_equivalent": 15849074325590,
+      "hits": [],
+      "wall_time_s": 2511.6289546489716,
+      "stop_reason": "stopping s=9: cumulative ACTUAL time 2511.6s > budget 2400.0s (control-timed, NOT natural exhaustion -- remaining headroom to natural ceiling still exists, see PROGRESS.md)"
+    },
+    "11": {
+      "A_min": 77,
+      "A_max_reached": 78,
+      "total_shapes_equivalent": 2051520132960,
+      "hits": [],
+      "wall_time_s": 291.6257977485657,
+      "stop_reason": "stopping s=11 BEFORE A=79: chosen k=4 estimated streamed-side 1.985e+09 items -> ~1984.8s > limit 900.0s (materialized side 1.029e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "13": {
+      "A_min": 59,
+      "A_max_reached": null,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 2.8371810913085938e-05,
+      "stop_reason": "stopping s=13 BEFORE A=59: chosen k=5 estimated streamed-side 1.040e+09 items -> ~1040.5s > limit 900.0s (materialized side 2.349e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "15": {
+      "A_min": 50,
+      "A_max_reached": 51,
+      "total_shapes_equivalent": 1613094528836,
+      "hits": [],
+      "wall_time_s": 1388.3414664268494,
+      "stop_reason": "stopping s=15 BEFORE A=52: chosen k=6 estimated streamed-side 1.102e+09 items -> ~1101.7s > limit 900.0s (materialized side 6.096e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "17": {
+      "A_min": 47,
+      "A_max_reached": 47,
+      "total_shapes_equivalent": 991493848554,
+      "hits": [],
+      "wall_time_s": 813.6523780822754,
+      "stop_reason": "stopping s=17 BEFORE A=48: chosen k=7 estimated streamed-side 1.121e+09 items -> ~1121.1s > limit 900.0s (materialized side 1.262e+07 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    }
+  },
+  "grand_total_equiv": 20505182835940,
+  "grand_hits": [],
+  "elapsed_total_s": 5005.26296710968
+}

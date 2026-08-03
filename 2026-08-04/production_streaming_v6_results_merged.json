@@ -1,0 +1,91 @@
+{
+  "results": {
+    "9": {
+      "A_min": 111,
+      "A_max_reached": 129,
+      "total_shapes_equivalent": 15849074325590,
+      "hits": [],
+      "wall_time_s": 2511.6289546489716,
+      "stop_reason": "stopping s=9: cumulative ACTUAL time 2511.6s > budget 2400.0s (control-timed, NOT natural exhaustion -- remaining headroom to natural ceiling still exists, see PROGRESS.md)"
+    },
+    "11": {
+      "A_min": 77,
+      "A_max_reached": 78,
+      "total_shapes_equivalent": 2051520132960,
+      "hits": [],
+      "wall_time_s": 291.6257977485657,
+      "stop_reason": "stopping s=11 BEFORE A=79: chosen k=4 estimated streamed-side 1.985e+09 items -> ~1984.8s > limit 900.0s (materialized side 1.029e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "13": {
+      "A_min": 59,
+      "A_max_reached": null,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 2.8371810913085938e-05,
+      "stop_reason": "stopping s=13 BEFORE A=59: chosen k=5 estimated streamed-side 1.040e+09 items -> ~1040.5s > limit 900.0s (materialized side 2.349e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "15": {
+      "A_min": 50,
+      "A_max_reached": 51,
+      "total_shapes_equivalent": 1613094528836,
+      "hits": [],
+      "wall_time_s": 1388.3414664268494,
+      "stop_reason": "stopping s=15 BEFORE A=52: chosen k=6 estimated streamed-side 1.102e+09 items -> ~1101.7s > limit 900.0s (materialized side 6.096e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "17": {
+      "A_min": 47,
+      "A_max_reached": 47,
+      "total_shapes_equivalent": 991493848554,
+      "hits": [],
+      "wall_time_s": 813.6523780822754,
+      "stop_reason": "stopping s=17 BEFORE A=48: chosen k=7 estimated streamed-side 1.121e+09 items -> ~1121.1s > limit 900.0s (materialized side 1.262e+07 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "10": {
+      "A_min": 84,
+      "A_max_reached": 92,
+      "total_shapes_equivalent": 4778333731028,
+      "hits": [],
+      "wall_time_s": 2580.672634124756,
+      "stop_reason": "stopping s=10: cumulative ACTUAL time 2580.7s > budget 2400.0s (control-timed, NOT natural exhaustion -- remaining headroom to natural ceiling still exists, see PROGRESS.md)"
+    },
+    "12": {
+      "A_min": 64,
+      "A_max_reached": 70,
+      "total_shapes_equivalent": 7970469612287,
+      "hits": [],
+      "wall_time_s": 2585.1947917938232,
+      "stop_reason": "stopping s=12: cumulative ACTUAL time 2585.2s > budget 2400.0s (control-timed, NOT natural exhaustion -- remaining headroom to natural ceiling still exists, see PROGRESS.md)"
+    },
+    "14": {
+      "A_min": 54,
+      "A_max_reached": 57,
+      "total_shapes_equivalent": 5290664792000,
+      "hits": [],
+      "wall_time_s": 1770.1642560958862,
+      "stop_reason": "stopping s=14 BEFORE A=58: chosen k=5 estimated streamed-side 4.432e+09 items -> ~4431.6s > limit 900.0s (materialized side 1.907e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "16": {
+      "A_min": 48,
+      "A_max_reached": null,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 2.6464462280273438e-05,
+      "stop_reason": "stopping s=16 BEFORE A=48: chosen k=6 estimated streamed-side 1.471e+09 items -> ~1471.4s > limit 900.0s (materialized side 2.761e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "18": {
+      "A_min": 45,
+      "A_max_reached": null,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 4.482269287109375e-05,
+      "stop_reason": "stopping s=18 BEFORE A=45: chosen k=7 estimated streamed-side 1.203e+09 items -> ~1203.3s > limit 900.0s (materialized side 5.380e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    }
+  },
+  "grand_total_equiv": 38544650971255,
+  "grand_hits": [],
+  "elapsed_wall_time_s_per_half": {
+    "A": 5005.26296710968,
+    "B": 6936.045701742172
+  },
+  "note": "A and B ran concurrently on separate cores; wall-clock for the whole run is max(A,B), not sum. This session (2026-08-04) is a direct continuation of 2026-08-03's s=9..18 catch-up, resuming from ../2026-08-03/production_streaming_v5_results_merged.json instead of the older 2026-07-29 baseline. Same MEM_ITEM_BUDGET=15,000,000 (unchanged), PER_A_TIME_LIMIT=900s (unchanged), but PER_S_TIME_BUDGET doubled from 1200s to 2400s. Result: s=11, 13, 14, 15, 16, 17, 18 all confirmed at their NATURAL ceiling under the current budget (no further A reachable without raising MEM_ITEM_BUDGET or PER_A_TIME_LIMIT); s=9, 10, 12 made substantial further progress but were still control-timed by PER_S_TIME_BUDGET, so headroom remains there for a future session."
+}
