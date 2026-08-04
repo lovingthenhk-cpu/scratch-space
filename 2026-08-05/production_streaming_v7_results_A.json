@@ -1,0 +1,24 @@
+{
+  "half": "A",
+  "results": {
+    "9": {
+      "A_min": 130,
+      "A_max_reached": 144,
+      "total_shapes_equivalent": 36356794536128,
+      "hits": [],
+      "wall_time_s": 4376.893130779266,
+      "stop_reason": "stopping s=9 BEFORE A=145: chosen k=3 estimated streamed-side 1.023e+10 items -> ~10231.0s > limit 900.0s (materialized side 4.380e+05 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "12": {
+      "A_min": 71,
+      "A_max_reached": 72,
+      "total_shapes_equivalent": 4724390242936,
+      "hits": [],
+      "wall_time_s": 1317.1192762851715,
+      "stop_reason": "stopping s=12 BEFORE A=73: chosen k=5 estimated streamed-side 9.694e+08 items -> ~969.4s > limit 900.0s (materialized side 8.937e+06 items, within 15,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    }
+  },
+  "grand_total_equiv": 41081184779064,
+  "grand_hits": [],
+  "elapsed_total_s": 5694.018146514893
+}
