@@ -1,0 +1,21 @@
+=== recomputing which stuck (s,A) unlock at NEW_BUDGET ===
+s= 9 A=151  old(k=3, mat=4.976e+05, est= 13172.4s)  new(k=4, mat=1.816e+07, est=  534.0s)  unlocked=True
+s=10 A=100  old(k=4, mat=3.050e+06, est=   927.0s)  new(k=4, mat=3.050e+06, est=  927.0s)  unlocked=False
+s=11 A= 82  old(k=4, mat=1.215e+06, est=  2641.9s)  new(k=5, mat=1.847e+07, est=  237.1s)  unlocked=True
+s=12 A= 73  old(k=5, mat=8.937e+06, est=   969.4s)  new(k=5, mat=8.937e+06, est=  969.4s)  unlocked=False
+s=13 A= 59  old(k=5, mat=2.349e+06, est=  1040.5s)  new(k=6, mat=2.036e+07, est=  154.1s)  unlocked=True
+s=14 A= 59  old(k=5, mat=2.119e+06, est=  5317.9s)  new(k=6, mat=1.801e+07, est=  886.3s)  unlocked=True
+s=15 A= 52  old(k=6, mat=6.096e+06, est=  1101.7s)  new(k=6, mat=6.096e+06, est= 1101.7s)  unlocked=False
+s=16 A= 49  old(k=6, mat=3.263e+06, est=  1917.3s)  new(k=7, mat=1.864e+07, est=  445.9s)  unlocked=True
+s=17 A= 48  old(k=7, mat=1.262e+07, est=  1121.1s)  new(k=7, mat=1.262e+07, est= 1121.1s)  unlocked=False
+s=18 A= 45  old(k=7, mat=5.380e+06, est=  1203.3s)  new(k=7, mat=5.380e+06, est= 1203.3s)  unlocked=False
+
+=== concurrent pair chosen (largest materialized side): [(13, 59), (16, 49)] ===
+
+=== launching both workers CONCURRENTLY, sampling combined RSS every 2s ===
+
+=== done. wall=380.1s  max_combined_RSS=4,707,856kB (4.490 GiB) ===
+  s=13 A=59  max_own_RSS=2,271,908kB (2.167 GiB)  result={'hits': [], 'n1c': 20358520, 'n2c': 154143080, 'dt': 139.64616417884827}
+  s=16 A=49  max_own_RSS=2,435,948kB (2.323 GiB)  result={'hits': [], 'n1c': 18643560, 'n2c': 445891810, 'dt': 379.98709440231323}
+
+=== results written to concurrent_budget_probe_21M_results.json / _timeline.csv ===

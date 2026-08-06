@@ -1,0 +1,22 @@
+[half B] plan: [(11, 79), (14, 58), (16, 48)]
+
+=== [half B] s=11 starting from A=79 ===
+  [half B] s= 11 A=  79 k=  5  dt= 142.52s (est  185.3s)  n1=  15,020,334 n2= 185,250,786  brute_equiv=1.258e+12  cum_equiv=1.258e+12  hits_this_A=0  cum_time_this_s=  142.5s
+  [half B] s= 11 A=  80 k=  5  dt= 151.74s (est  201.4s)  n1=  16,108,764 n2= 201,359,550  brute_equiv=1.441e+12  cum_equiv=2.699e+12  hits_this_A=0  cum_time_this_s=  294.3s
+  [half B] s= 11 A=  81 k=  5  dt= 168.71s (est  218.6s)  n1=  17,259,390 n2= 218,618,940  brute_equiv=1.646e+12  cum_equiv=4.345e+12  hits_this_A=0  cum_time_this_s=  463.0s
+  [half B] stopping s=11 BEFORE A=82: chosen k=4 estimated streamed-side 2.642e+09 items -> ~2641.9s > limit 900.0s (materialized side 1.215e+06 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]
+=== [half B] s=11 done: A in [79,81], 4.345e+12 brute-force-equivalent shapes, 463.0s, hits=[] ===
+
+=== [half B] s=14 starting from A=58 ===
+  [half B] s= 14 A=  58 k=  6  dt= 561.77s (est  752.5s)  n1=  15,890,700 n2= 752,538,150  brute_equiv=2.448e+12  cum_equiv=2.448e+12  hits_this_A=0  cum_time_this_s=  561.8s
+  [half B] stopping s=14 BEFORE A=59: chosen k=5 estimated streamed-side 5.318e+09 items -> ~5317.9s > limit 900.0s (materialized side 2.119e+06 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]
+=== [half B] s=14 done: A in [58,58], 2.448e+12 brute-force-equivalent shapes, 561.8s, hits=[] ===
+
+=== [half B] s=16 starting from A=48 ===
+  [half B] s= 16 A=  48 k=  7  dt= 290.78s (est  350.3s)  n1=  15,380,937 n2= 350,343,565  brute_equiv=7.516e+11  cum_equiv=7.516e+11  hits_this_A=0  cum_time_this_s=  290.8s
+  [half B] stopping s=16 BEFORE A=49: chosen k=6 estimated streamed-side 1.917e+09 items -> ~1917.3s > limit 900.0s (materialized side 3.263e+06 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]
+=== [half B] s=16 done: A in [48,48], 7.516e+11 brute-force-equivalent shapes, 290.8s, hits=[] ===
+
+
+[half B] GRAND TOTAL: 7.545e+12 brute-force-equivalent shapes checked, total wall time 1315.5s
+[half B] GRAND HITS: []

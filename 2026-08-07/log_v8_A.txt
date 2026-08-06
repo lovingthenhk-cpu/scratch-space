@@ -1,0 +1,15 @@
+[half A] plan: [(9, 145)]
+
+=== [half A] s=9 starting from A=145 ===
+  [half A] s=  9 A= 145 k=  4  dt= 295.58s (est  432.3s)  n1=  15,329,615 n2= 432,295,143  brute_equiv=3.762e+12  cum_equiv=3.762e+12  hits_this_A=0  cum_time_this_s=  295.6s
+  [half A] s=  9 A= 146 k=  4  dt= 308.45s (est  448.1s)  n1=  15,777,195 n2= 448,072,338  brute_equiv=3.982e+12  cum_equiv=7.744e+12  hits_this_A=0  cum_time_this_s=  604.0s
+  [half A] s=  9 A= 147 k=  4  dt= 314.01s (est  464.3s)  n1=  16,234,505 n2= 464,306,843  brute_equiv=4.213e+12  cum_equiv=1.196e+13  hits_this_A=0  cum_time_this_s=  918.0s
+  [half A] s=  9 A= 148 k=  4  dt= 332.57s (est  481.0s)  n1=  16,701,685 n2= 481,008,528  brute_equiv=4.455e+12  cum_equiv=1.641e+13  hits_this_A=0  cum_time_this_s= 1250.6s
+  [half A] s=  9 A= 149 k=  4  dt= 343.32s (est  498.2s)  n1=  17,178,876 n2= 498,187,404  brute_equiv=4.710e+12  cum_equiv=2.112e+13  hits_this_A=0  cum_time_this_s= 1593.9s
+  [half A] s=  9 A= 150 k=  4  dt= 365.36s (est  515.9s)  n1=  17,666,220 n2= 515,853,624  brute_equiv=4.977e+12  cum_equiv=2.610e+13  hits_this_A=0  cum_time_this_s= 1959.3s
+  [half A] stopping s=9 BEFORE A=151: chosen k=3 estimated streamed-side 1.317e+10 items -> ~13172.4s > limit 900.0s (materialized side 4.976e+05 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]
+=== [half A] s=9 done: A in [145,150], 2.610e+13 brute-force-equivalent shapes, 1959.3s, hits=[] ===
+
+
+[half A] GRAND TOTAL: 2.610e+13 brute-force-equivalent shapes checked, total wall time 1959.3s
+[half A] GRAND HITS: []

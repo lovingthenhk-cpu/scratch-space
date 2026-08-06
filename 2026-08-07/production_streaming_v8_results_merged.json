@@ -1,0 +1,92 @@
+{
+  "results": {
+    "9": {
+      "A_min": 145,
+      "A_max_reached": 150,
+      "total_shapes_equivalent": 26097914128572,
+      "hits": [],
+      "wall_time_s": 1959.3057706356049,
+      "stop_reason": "stopping s=9 BEFORE A=151: chosen k=3 estimated streamed-side 1.317e+10 items -> ~13172.4s > limit 900.0s (materialized side 4.976e+05 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "10": {
+      "A_min": 100,
+      "A_max_reached": 99,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 0.0,
+      "stop_reason": "UNCHANGED from 15,000,000 budget: formula re-check under 18,000,000 confirms A=99 remains the natural ceiling (next A=100 still exceeds PER_A_TIME_LIMIT=900s even with the raised budget) -- not executed, no new shapes checked for this s this session."
+    },
+    "11": {
+      "A_min": 79,
+      "A_max_reached": 81,
+      "total_shapes_equivalent": 4345488670380,
+      "hits": [],
+      "wall_time_s": 462.9736454486847,
+      "stop_reason": "stopping s=11 BEFORE A=82: chosen k=4 estimated streamed-side 2.642e+09 items -> ~2641.9s > limit 900.0s (materialized side 1.215e+06 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "12": {
+      "A_min": 73,
+      "A_max_reached": 72,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 0.0,
+      "stop_reason": "UNCHANGED from 15,000,000 budget: formula re-check under 18,000,000 confirms A=72 remains the natural ceiling (next A=73 still exceeds PER_A_TIME_LIMIT=900s even with the raised budget) -- not executed, no new shapes checked for this s this session."
+    },
+    "13": {
+      "A_min": 59,
+      "A_max_reached": 58,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 0.0,
+      "stop_reason": "UNCHANGED from 15,000,000 budget: formula re-check under 18,000,000 confirms A=58 remains the natural ceiling (next A=59 still exceeds PER_A_TIME_LIMIT=900s even with the raised budget) -- not executed, no new shapes checked for this s this session."
+    },
+    "14": {
+      "A_min": 58,
+      "A_max_reached": 58,
+      "total_shapes_equivalent": 2448296039700,
+      "hits": [],
+      "wall_time_s": 561.7698209285736,
+      "stop_reason": "stopping s=14 BEFORE A=59: chosen k=5 estimated streamed-side 5.318e+09 items -> ~5317.9s > limit 900.0s (materialized side 2.119e+06 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "15": {
+      "A_min": 52,
+      "A_max_reached": 51,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 0.0,
+      "stop_reason": "UNCHANGED from 15,000,000 budget: formula re-check under 18,000,000 confirms A=51 remains the natural ceiling (next A=52 still exceeds PER_A_TIME_LIMIT=900s even with the raised budget) -- not executed, no new shapes checked for this s this session."
+    },
+    "16": {
+      "A_min": 48,
+      "A_max_reached": 48,
+      "total_shapes_equivalent": 751616304549,
+      "hits": [],
+      "wall_time_s": 290.77630639076233,
+      "stop_reason": "stopping s=16 BEFORE A=49: chosen k=6 estimated streamed-side 1.917e+09 items -> ~1917.3s > limit 900.0s (materialized side 3.263e+06 items, within 18,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "17": {
+      "A_min": 48,
+      "A_max_reached": 47,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 0.0,
+      "stop_reason": "UNCHANGED from 15,000,000 budget: formula re-check under 18,000,000 confirms A=47 remains the natural ceiling (next A=48 still exceeds PER_A_TIME_LIMIT=900s even with the raised budget) -- not executed, no new shapes checked for this s this session."
+    },
+    "18": {
+      "A_min": 45,
+      "A_max_reached": 44,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 0.0,
+      "stop_reason": "UNCHANGED from 15,000,000 budget: formula re-check under 18,000,000 confirms A=44 remains the natural ceiling (next A=45 still exceeds PER_A_TIME_LIMIT=900s even with the raised budget) -- not executed, no new shapes checked for this s this session."
+    }
+  },
+  "grand_total_equiv": 33643315143201,
+  "grand_hits": [],
+  "elapsed_wall_time_s_per_half": {
+    "A": 1959.3075232505798,
+    "B": 1315.5275011062622
+  },
+  "mem_item_budget": 18000000,
+  "note": "2026-08-07 session: MEM_ITEM_BUDGET actually raised in the main production script from 15,000,000 to 18,000,000 (previously only probed in isolation/pairs on 2026-08-04/05). Of the ten s in [9,18], only s=9 (144->150), s=11 (78->81), s=14 (57->58), and s=16 (47->48) advance under the new budget -- the other six (10,12,13,15,17,18) are confirmed (by the same deterministic choose_k_for_memory_budget()/comb() formula the production script itself uses) to remain at exactly their 15,000,000-budget ceiling, so were not re-executed. A and B ran concurrently on separate cores; real combined peak RSS during this production run was ~3.82 GiB (memory_monitor_log.csv), consistent with 2026-08-05's isolated-pair probe (~3.91 GiB). n1 = 4 mod 5 solutions: 0."
+}
