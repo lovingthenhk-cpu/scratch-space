@@ -1,0 +1,12 @@
+[budget=21,000,000] s= 9: ceiling A=156 (next A=157 needs k=3, mat=5.625e+05, streamed=1.679e+10 -> est 16787.2s > 900.0s), steps_gained=6, projected_time=3494.7s
+[budget=21,000,000] s=10: ceiling A=99 (next A=100 needs k=4, mat=3.050e+06, streamed=9.270e+08 -> est 927.0s > 900.0s), steps_gained=0, projected_time=0.0s
+[budget=21,000,000] s=11: ceiling A=83 (next A=84 needs k=4, mat=1.353e+06, streamed=3.177e+09 -> est 3176.7s > 900.0s), steps_gained=2, projected_time=493.9s
+[budget=21,000,000] s=12: ceiling A=72 (next A=73 needs k=5, mat=8.937e+06, streamed=9.694e+08 -> est 969.4s > 900.0s), steps_gained=0, projected_time=0.0s
+[budget=21,000,000] s=13: ceiling A=59 (next A=60 needs k=5, mat=2.599e+06, streamed=1.218e+09 -> est 1217.6s > 900.0s), steps_gained=1, projected_time=154.1s
+[budget=21,000,000] s=14: ceiling A=59 (next A=60 needs k=6, mat=2.036e+07, streamed=1.040e+09 -> est 1040.5s > 900.0s), steps_gained=1, projected_time=886.3s
+[budget=21,000,000] s=15: ceiling A=51 (next A=52 needs k=6, mat=6.096e+06, streamed=1.102e+09 -> est 1101.7s > 900.0s), steps_gained=0, projected_time=0.0s
+[budget=21,000,000] s=16: ceiling A=49 (next A=50 needs k=6, mat=3.838e+06, streamed=2.481e+09 -> est 2481.3s > 900.0s), steps_gained=1, projected_time=445.9s
+[budget=21,000,000] s=17: ceiling A=47 (next A=48 needs k=7, mat=1.262e+07, streamed=1.121e+09 -> est 1121.1s > 900.0s), steps_gained=0, projected_time=0.0s
+[budget=21,000,000] s=18: ceiling A=44 (next A=45 needs k=7, mat=5.380e+06, streamed=1.203e+09 -> est 1203.3s > 900.0s), steps_gained=0, projected_time=0.0s
+
+[budget=21,000,000] grand total projected CPU time (single core, sequential): 5475.0s (91.3 min)

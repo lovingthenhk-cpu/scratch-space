@@ -1,0 +1,40 @@
+{
+  "half": "B",
+  "results": {
+    "11": {
+      "A_min": 82,
+      "A_max_reached": 83,
+      "total_shapes_equivalent": 4017672648990,
+      "hits": [],
+      "wall_time_s": 397.8251385688782,
+      "stop_reason": "stopping s=11 BEFORE A=84: chosen k=4 estimated streamed-side 3.177e+09 items -> ~3176.7s > limit 900.0s (materialized side 1.353e+06 items, within 21,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "13": {
+      "A_min": 59,
+      "A_max_reached": 59,
+      "total_shapes_equivalent": 891794789340,
+      "hits": [],
+      "wall_time_s": 142.57806205749512,
+      "stop_reason": "stopping s=13 BEFORE A=60: chosen k=5 estimated streamed-side 1.218e+09 items -> ~1217.6s > limit 900.0s (materialized side 2.599e+06 items, within 21,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "14": {
+      "A_min": 59,
+      "A_max_reached": 59,
+      "total_shapes_equivalent": 3155581562280,
+      "hits": [],
+      "wall_time_s": 680.197990655899,
+      "stop_reason": "stopping s=14 BEFORE A=60: chosen k=6 estimated streamed-side 1.040e+09 items -> ~1040.5s > limit 900.0s (materialized side 2.036e+07 items, within 21,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    },
+    "16": {
+      "A_min": 49,
+      "A_max_reached": 49,
+      "total_shapes_equivalent": 1093260079344,
+      "hits": [],
+      "wall_time_s": 372.88459610939026,
+      "stop_reason": "stopping s=16 BEFORE A=50: chosen k=6 estimated streamed-side 2.481e+09 items -> ~2481.3s > limit 900.0s (materialized side 3.838e+06 items, within 21,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    }
+  },
+  "grand_total_equiv": 9158309079954,
+  "grand_hits": [],
+  "elapsed_total_s": 1593.4957568645477
+}

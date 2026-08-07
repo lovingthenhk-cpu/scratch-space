@@ -1,0 +1,16 @@
+{
+  "half": "A",
+  "results": {
+    "9": {
+      "A_min": 151,
+      "A_max_reached": 156,
+      "total_shapes_equivalent": 36249850522600,
+      "hits": [],
+      "wall_time_s": 2541.5096271038055,
+      "stop_reason": "stopping s=9 BEFORE A=157: chosen k=3 estimated streamed-side 1.679e+10 items -> ~16787.2s > limit 900.0s (materialized side 5.625e+05 items, within 21,000,000 budget) [NATURAL ceiling under current MEM_ITEM_BUDGET]"
+    }
+  },
+  "grand_total_equiv": 36249850522600,
+  "grand_hits": [],
+  "elapsed_total_s": 2541.511111974716
+}
