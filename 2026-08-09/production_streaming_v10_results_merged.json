@@ -1,0 +1,40 @@
+{
+  "results": {
+    "10": {
+      "A_min": 100,
+      "A_max_reached": 104,
+      "total_shapes_equivalent": 10521707840644,
+      "hits": [],
+      "wall_time_s": 3778.6935937404633,
+      "stop_reason": "stopping s=10 BEFORE A=105: chosen k=4 estimated streamed-side 1.267e+09 items -> ~1267.3s > limit 1200.0s (materialized side 3.764e+06 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    },
+    "12": {
+      "A_min": 73,
+      "A_max_reached": 75,
+      "total_shapes_equivalent": 10760605110944,
+      "hits": [],
+      "wall_time_s": 2686.099512577057,
+      "stop_reason": "stopping s=12 BEFORE A=76: chosen k=5 estimated streamed-side 1.330e+09 items -> ~1329.9s > limit 1200.0s (materialized side 1.124e+07 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    },
+    "15": {
+      "A_min": 52,
+      "A_max_reached": 52,
+      "total_shapes_equivalent": 1292706174900,
+      "hits": [],
+      "wall_time_s": 967.3641152381897,
+      "stop_reason": "stopping s=15 BEFORE A=53: chosen k=6 estimated streamed-side 1.363e+09 items -> ~1362.6s > limit 1200.0s (materialized side 7.059e+06 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    },
+    "17": {
+      "A_min": 48,
+      "A_max_reached": 48,
+      "total_shapes_equivalent": 1503232609098,
+      "hits": [],
+      "wall_time_s": 1041.598962545395,
+      "stop_reason": "stopping s=17 BEFORE A=49: chosen k=7 estimated streamed-side 1.471e+09 items -> ~1471.4s > limit 1200.0s (materialized side 1.538e+07 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    }
+  },
+  "grand_total_equiv": 24078251735586,
+  "grand_hits": [],
+  "half_A_wall_time_s": 3778.6954007148743,
+  "half_B_wall_time_s": 4695.077887773514
+}

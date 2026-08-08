@@ -1,0 +1,14 @@
+[half A] plan: [(10, 100)]
+
+=== [half A] s=10 starting from A=100 ===
+  [half A] s= 10 A= 100 k=  4  dt= 622.20s (est  927.0s)  n1=   3,049,501 n2= 927,048,304  brute_equiv=1.731e+12  cum_equiv=1.731e+12  hits_this_A=0  cum_time_this_s=  622.2s
+  [half A] s= 10 A= 101 k=  4  dt= 671.14s (est  988.2s)  n1=   3,183,545 n2= 988,172,368  brute_equiv=1.902e+12  cum_equiv=3.633e+12  hits_this_A=0  cum_time_this_s= 1293.3s
+  [half A] s= 10 A= 102 k=  4  dt= 713.13s (est 1052.6s)  n1=   3,321,960 n2=1,052,618,392  brute_equiv=2.088e+12  cum_equiv=5.722e+12  hits_this_A=0  cum_time_this_s= 2006.5s
+  [half A] s= 10 A= 103 k=  4  dt= 862.94s (est 1120.5s)  n1=   3,464,840 n2=1,120,529,256  brute_equiv=2.290e+12  cum_equiv=8.012e+12  hits_this_A=0  cum_time_this_s= 2869.4s
+  [half A] s= 10 A= 104 k=  4  dt= 909.28s (est 1192.1s)  n1=   3,612,280 n2=1,192,052,400  brute_equiv=2.510e+12  cum_equiv=1.052e+13  hits_this_A=0  cum_time_this_s= 3778.7s
+  [half A] stopping s=10 BEFORE A=105: chosen k=4 estimated streamed-side 1.267e+09 items -> ~1267.3s > limit 1200.0s (materialized side 3.764e+06 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]
+=== [half A] s=10 done: A in [100,104], 1.052e+13 brute-force-equivalent shapes, 3778.7s, hits=[] ===
+
+
+[half A] GRAND TOTAL: 1.052e+13 brute-force-equivalent shapes checked, total wall time 3778.7s
+[half A] GRAND HITS: []
