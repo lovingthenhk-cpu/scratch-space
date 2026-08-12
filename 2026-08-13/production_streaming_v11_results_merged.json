@@ -1,0 +1,48 @@
+{
+  "results": {
+    "10": {
+      "A_min": 105,
+      "A_max_reached": 106,
+      "total_shapes_equivalent": 5752520018245,
+      "hits": [],
+      "wall_time_s": 1870.7994010448456,
+      "stop_reason": "stopping s=10 BEFORE A=107: chosen k=4 estimated streamed-side 1.430e+09 items -> ~1429.8s > limit 1400.0s (materialized side 4.083e+06 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    },
+    "18": {
+      "A_min": 45,
+      "A_max_reached": 45,
+      "total_shapes_equivalent": 686353797976,
+      "hits": [],
+      "wall_time_s": 1171.5175914764404,
+      "stop_reason": "stopping s=18 BEFORE A=46: chosen k=7 estimated streamed-side 1.676e+09 items -> ~1676.1s > limit 1400.0s (materialized side 6.725e+06 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    },
+    "12": {
+      "A_min": 76,
+      "A_max_reached": 76,
+      "total_shapes_equivalent": 4898229264825,
+      "hits": [],
+      "wall_time_s": 1033.2329828739166,
+      "stop_reason": "stopping s=12 BEFORE A=77: chosen k=5 estimated streamed-side 1.473e+09 items -> ~1473.1s > limit 1400.0s (materialized side 1.210e+07 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    },
+    "15": {
+      "A_min": 53,
+      "A_max_reached": 53,
+      "total_shapes_equivalent": 1768966344600,
+      "hits": [],
+      "wall_time_s": 1153.3415894508362,
+      "stop_reason": "stopping s=15 BEFORE A=54: chosen k=6 estimated streamed-side 1.677e+09 items -> ~1677.1s > limit 1400.0s (materialized side 8.145e+06 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    },
+    "17": {
+      "A_min": 49,
+      "A_max_reached": null,
+      "total_shapes_equivalent": 0,
+      "hits": [],
+      "wall_time_s": 3.6716461181640625e-05,
+      "stop_reason": "stopping s=17 BEFORE A=49: chosen k=7 estimated streamed-side 1.471e+09 items -> ~1471.4s > limit 1400.0s (materialized side 1.538e+07 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]"
+    }
+  },
+  "grand_total_equiv": 13106069425646,
+  "grand_hits": [],
+  "half_A_wall_time_s": 3042.3363790512085,
+  "half_B_wall_time_s": 2186.587290287018
+}

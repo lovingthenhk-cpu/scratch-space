@@ -1,0 +1,19 @@
+[half B] plan: [(12, 76), (15, 53), (17, 49)]
+
+=== [half B] s=12 starting from A=76 ===
+  [half B] s= 12 A=  76 k=  5  dt=1033.23s (est 1329.9s)  n1=  11,238,513 n2=1,329,890,705  brute_equiv=4.898e+12  cum_equiv=4.898e+12  hits_this_A=0  cum_time_this_s= 1033.2s
+  [half B] stopping s=12 BEFORE A=77: chosen k=5 estimated streamed-side 1.473e+09 items -> ~1473.1s > limit 1400.0s (materialized side 1.210e+07 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]
+=== [half B] s=12 done: A in [76,76], 4.898e+12 brute-force-equivalent shapes, 1033.2s, hits=[] ===
+
+=== [half B] s=15 starting from A=53 ===
+  [half B] s= 15 A=  53 k=  6  dt=1153.34s (est 1362.6s)  n1=   7,059,052 n2=1,362,649,145  brute_equiv=1.769e+12  cum_equiv=1.769e+12  hits_this_A=0  cum_time_this_s= 1153.3s
+  [half B] stopping s=15 BEFORE A=54: chosen k=6 estimated streamed-side 1.677e+09 items -> ~1677.1s > limit 1400.0s (materialized side 8.145e+06 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]
+=== [half B] s=15 done: A in [53,53], 1.769e+12 brute-force-equivalent shapes, 1153.3s, hits=[] ===
+
+=== [half B] s=17 starting from A=49 ===
+  [half B] stopping s=17 BEFORE A=49: chosen k=7 estimated streamed-side 1.471e+09 items -> ~1471.4s > limit 1400.0s (materialized side 1.538e+07 items, within 21,000,000 budget) [NATURAL ceiling under current PER_A_TIME_LIMIT]
+=== [half B] s=17 done: A in [49,None], 0.000e+00 brute-force-equivalent shapes, 0.0s, hits=[] ===
+
+
+[half B] GRAND TOTAL: 6.667e+12 brute-force-equivalent shapes checked, total wall time 2186.6s
+[half B] GRAND HITS: []
